@@ -1,8 +1,6 @@
 package projects;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Project08 {
 
@@ -61,7 +59,7 @@ public class Project08 {
         System.out.println("---------- TASK-1 ----------\n");
 
         String[] t1_arr = {"foo", "", " ", "foo bar", "java is fun", " ruby "};
-        System.out.println(Project08.countMultipleWords(t1_arr));
+        System.out.println(countMultipleWords(t1_arr));
 
 
         System.out.println("\n---------- TASK-2 ----------\n");
@@ -75,18 +73,18 @@ public class Project08 {
         t2_nums.add(-78);
         t2_nums.add(0);
         t2_nums.add(15);
-        System.out.println(Project08.removeNegatives(t2_nums));
+        System.out.println(removeNegatives(t2_nums));
 
 
         System.out.println("\n---------- TASK-3 ----------\n");
 
-        String t3_password = "Abcd@12.34!";
-        System.out.println(Project08.validatePassword(t3_password));
+        String t3_password = "Abcd1234!";
+        System.out.println(validatePassword(t3_password));
 
 
         System.out.println("\n---------- TASK-4 ----------\n");
 
         String t4_email = "ab@gm.co";
-        System.out.println(Project08.validateEmailAddress(t4_email));
+        System.out.println(validateEmailAddress(t4_email));
     }
 }
