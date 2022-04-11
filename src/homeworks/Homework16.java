@@ -1,6 +1,5 @@
 package homeworks;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -149,5 +148,7 @@ public class Homework16 {
         System.out.println("\n---------- TASK-8 ----------\n");
         int[] numbers = {10, -13, 5, 70, 15, 57};
         System.out.println(findClosestTo10(numbers));
+
+        System.out.println("End of the program!");
     }
 }
