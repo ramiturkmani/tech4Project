@@ -1,7 +1,5 @@
 package collectionsFramework;
 
-import apple.laf.JRSUIUtils;
-
 import java.util.TreeSet;
 
 public class TreeSetPractice {
