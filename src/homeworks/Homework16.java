@@ -2,6 +2,7 @@ package homeworks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedHashSet;
 
 public class Homework16 {
 
@@ -49,11 +50,13 @@ public class Homework16 {
 
     //---------- TASK-5 ----------//
     public static ArrayList<String> removeDuplicateElements(ArrayList<String> arr) {
-        ArrayList<String> newArr = new ArrayList<>();
-        for (String string : arr) {
-            if(!newArr.contains(string)) newArr.add(string);
-        }
-        return newArr;
+//        ArrayList<String> newArr = new ArrayList<>();
+//        for (String string : arr) {
+//            if(!newArr.contains(string)) newArr.add(string);
+//        }
+//        return newArr;
+        LinkedHashSet<String> noDups = new LinkedHashSet<>(arr);
+        return new ArrayList<>(noDups);
     }
 
     //---------- TASK-6 ----------//

@@ -1,8 +1,6 @@
 package homeworks;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Homework17 {
@@ -22,7 +20,7 @@ public class Homework17 {
 
     //-----Task-3-----
     public static String[] stringArray(String str){
-        return str.split(" ");
+        return str.trim().split(" ");
     }
 
     //-----Task-4-----
