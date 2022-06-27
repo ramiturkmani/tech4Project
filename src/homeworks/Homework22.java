@@ -46,8 +46,10 @@ public class Homework22 {
 
     //TASK-4
     public static boolean isPowerOf3(int num){
-        if (num < 3) return 3 % num == 0;
-        else return num % 3 == 0;
+        while(num % 3 == 0){
+            num /= 3;
+        }
+        return num == 1;
     }
 
     //TASK-5
@@ -68,7 +70,7 @@ public class Homework22 {
         int[] arr1 = {1, 2, 3, 4};
         int[] arr2 = {3, 4, 5, 5};
         System.out.println(Arrays.toString(findUniques(arr1, arr2)));
-        System.out.println(isPowerOf3(9));
+        System.out.println(isPowerOf3(15));
         System.out.println(firstDuplicate(new int[] {1, 1, 2, 3, 3, 4}));
     }
 }
